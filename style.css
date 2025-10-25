@@ -1,0 +1,57 @@
+* {
+font-family:'Arial';
+}
+
+h1{
+color: rgb(255, 0, 0);
+}
+
+.nav-list li:first-child .link {
+    color: rgb(0, 255, 0);
+}
+.nav-list li:last-child .link {
+    color: rgb(255, 255, 0);
+}
+
+.special-link{
+color: rgb(0, 0, 255);
+}
+
+#first-post{
+color: rgb(255, 106, 0);
+}
+
+.post{
+color: rgb(98, 5, 164);
+}
+
+.widget > h3:first-of-type {
+    color: pink;
+}
+
+.color-list li:first-child {
+    color: rgb(68, 68, 68);    
+}
+
+.color-list li:nth-child(2) {
+    color: rgb(138, 27, 27);   
+}
+
+.highlighted{
+    color: rgb(0, 0, 0);
+}
+
+.widget.important-widget h3  {
+    color: maroon;
+} 
+.note{
+     color: maroon;
+}
+.submit-btn {
+    color: rgb(241, 11, 11);
+}
+
+[placeholder="Белый"] {
+    background-color: #333; 
+    color: white; 
+}
